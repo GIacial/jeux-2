@@ -1,0 +1,40 @@
+liste attaque
+    //magie (26)
+    static QString soin(Entite& lanceur,Entite& cible);
+    static QString soinAvance(Entite &lanceur, Entite &cible);
+    static QString soinPuissant(Entite &lanceur,Entite &cible);
+    static QString soinComplet(Entite &lanceur,Entite &cible);
+    static QString rappel(Entite &lanceur,Entite &cible);
+    static QString ressurection(Entite &lanceur,Entite &cible);
+    static QString multisoin(Entite &lanceur,QList<Entite*> cible);
+    static QString omnisoin(Entite &lanceur,QList<Entite*> cible);
+    static QString bouclier(Entite &lanceur,Entite &cible);
+    static QString blindage(Entite &lanceur,Entite &cible);
+    static QString booster(Entite &lanceur,Entite &cible);
+    static QString deculpo(Entite &lanceur,Entite &cible);
+    static QString canalisationMagique(Entite &lanceur,Entite &cible);
+    static QString purification(Entite &lanceur,Entite &cible);
+    static QString superBouclier(Entite &lanceur, QList<Entite*> cible);
+    static QString superBlindage(Entite &lanceur,QList<Entite*> cible);
+    static QString superBooster(Entite &lanceur,QList<Entite*> cible);
+    static QString defense(Entite &lanceur);
+    static QString flamme(Entite& lanceur,Entite& cible);
+    static QString superFlamme(Entite& lanceur,Entite& cible);
+    static QString megaFlamme(Entite& lanceur,Entite& cible);
+    static QString gigaFlamme(Entite& lanceur,Entite& cible);
+    static QString crame(Entite& lanceur,QList<Entite*> cible);
+    static QString superCrame(Entite& lanceur,QList<Entite*> cible);
+    static QString megaCrame(Entite& lanceur,QList<Entite*> cible);
+    static QString gigaCrame(Entite& lanceur,QList<Entite*> cible);
+        //technique(10)
+    static QString frappePuissante(Entite& lanceur,Entite& cible);
+    static QString briseCrane(Entite& lanceur,Entite& cible);
+    static QString ryuken(Entite& lanceur,Entite& cible);
+    static QString frappeCirculaire(Entite& lanceur,QList<Entite*> cible);
+    static QString Seisme (Entite& lanceur,QList<Entite*> cible);
+    static QString deprime(Entite& lanceur,Entite& cible);
+    static QString lameEmpoisonner(Entite& lanceur,Entite& cible);
+    static QString FrappeRapide(Entite& lanceur,Entite& cible);
+    static QString NuagePoison(Entite& lanceur,QList<Entite*> cible);
+    static QString FrappeAstral(Entite& lanceur,Entite& cible);
+    static QString lameDragon(Entite& lanceur,Entite& cible);

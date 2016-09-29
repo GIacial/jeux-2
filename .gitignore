@@ -45,3 +45,15 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# les .o moc_blabla.cpp .exe
+*.o
+moc_*
+*.exe
+*.Debug
+*.Release
+*.sav
+*.xcf 
+*.ggb
+*.user*
+build*
